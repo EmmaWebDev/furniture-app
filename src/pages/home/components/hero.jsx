@@ -1,9 +1,15 @@
+import { heroImage } from "../../../assets";
 
 
 const Hero = () => {
-  return (
-    <div>Hero</div>
-  )
+  return <div>
+    <div>
+      <div>
+        <img src={heroImage} alt="hero background" />
+      </div>
+
+    </div>
+  </div>;
 }
 
 export default Hero
