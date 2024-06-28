@@ -1,5 +1,5 @@
 
-import { HeartHandshake } from "lucide-react";
+import { Handshake } from "lucide-react";
 import K from "../../../constants";
 
 
@@ -9,7 +9,7 @@ const Services = () => {
       {K.SERVICES.map((service, index) => {
         return (
           <div key={index} style={{backgroundColor:service.bgColor}}>
-          <span><HeartHandshake/></span>
+          <span><Handshake/></span>
             
             <h3>(service.title)</h3>
             <p>(service.description)</p>
