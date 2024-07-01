@@ -1,5 +1,9 @@
 
 import { Handshake } from "lucide-react";
+import { TruckIcon } from "lucide-react";
+import { HeadsetIcon } from "lucide-react";
+import { SofaIcon } from "lucide-react";
+
 import K from "../../../constants";
 
 
